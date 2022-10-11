@@ -1,0 +1,109 @@
+:root {
+  overflow-x: hidden;
+  padding: 20px 50px 20px 50px;
+}
+
+header h2 {
+  color: rgb(16, 0, 108);
+  text-shadow: 1px 3px 33px rgb(0, 0, 0);
+  margin: auto;
+  text-align: center;
+}
+
+header hr {
+  margin-top: 10px;
+  background: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 23rem 30rem 23rem;
+  grid-template-rows: 1;
+  width: 100vw;
+  column-gap: 15px;
+  height: 80vh;
+  margin-top: 20px;
+}
+
+
+
+.styles {
+  border: solid 2px rgb(168, 166, 180);
+  border-radius: 1%;
+  background-color: rgb(197, 209, 236);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.styles h2 {
+  text-align: center;
+  margin: auto;
+}
+
+.styles label {
+  margin: auto;
+}
+
+.styles label input {
+  max-width: 25px;
+  max-height: 16px;
+  margin: auto;
+  padding: auto;
+}
+
+.styles>input {
+  width: 260px;
+  margin: auto;
+}
+
+#value-box-color, #value-shadow-color {
+  max-width: 50px !important;
+}
+
+
+#input-box-color, #input-shadow-color {
+ max-width: 50px !important;
+ max-height: 50px !important;
+}
+
+
+.section-box {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#main-box {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+
+
+.style-css {
+  background-color: rgb(197, 209, 236);
+  border: solid 1px black;
+  border-radius: 10px;
+  max-width: 350px;
+  max-height: 500px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 1px;
+  font-size: 14px;
+}
+
+.style-css p {
+  margin: auto;
+  text-align: start;
+
+}
+
+ 
+
