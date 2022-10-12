@@ -1,7 +1,7 @@
 
 let mainBox = document.querySelector('#main-box');
 
-// ESTILOS CSS PARA EL USUARIO
+// PARA SECCIÓN CODIGOS ESTILOS DE CSS
 
 let styleShadow = document.querySelector('#style-shadow');
 let styleWidth = document.querySelector('#style-width');
