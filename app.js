@@ -1,7 +1,7 @@
 
 let mainBox = document.querySelector('#main-box');
 
-// ESTILOS CSS PARA USUARIO
+// ESTILOS CSS PARA EL USUARIO
 
 let styleShadow = document.querySelector('#style-shadow');
 let styleWidth = document.querySelector('#style-width');
@@ -98,8 +98,6 @@ let inputSpread = document.querySelector('#input-spread');
 
 let valueShadowColor = document.querySelector('#value-shadow-color');
 let inputShadowColor = document.querySelector('#input-shadow-color');
-
-
 
 
 mainBox.style.boxShadow = `${valueOffsetHorizontal.value}px ${valueOffsetVertical.value}px ${valueBlur.value}px ${valueSpread.value}px ${valueShadowColor.value}`;

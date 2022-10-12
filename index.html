@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="./style.css">
   <title>Box Shadow Generator</title>
 </head>
-
 <body>
   <header>
     <h2>Box Shadow Generator</h2>
@@ -19,53 +17,78 @@
     <div class="box-styles styles">
       <h2>Estilos de la Caja</h2>
 
-      <label for=""> <p>Ancho: <input type="text" name="width" id="value-width" min="1" max="500" value="200"> px </p> </label>
+      <label for="">
+        <p>Ancho: <input type="text" name="width" id="value-width" min="1" max="500" value="200"> px </p>
+      </label>
       <input type="range" id="input-width" min="1" max="500" value="200">
 
-      <label for=""> <p>Alto: <input type="text" name="height" id="value-height" min="1" max="500" value="200"> px</p> </label>
+      <label for="">
+        <p>Alto: <input type="text" name="height" id="value-height" min="1" max="500" value="200"> px</p>
+      </label>
       <input type="range" id="input-height" min="1" max="500" value="200">
 
-      <label for=""> <p>Border Radius: <input type="text" name="border-radius" id="value-border-radius"  min="0" max="300" value="2"> px</p> </label>
+      <label for="">
+        <p>Border Radius: <input type="text" name="border-radius" id="value-border-radius" min="0" max="300" value="2">
+          px</p>
+      </label>
       <input type="range" id="input-border-radius" min="0" max="300" value="2">
 
-      <label for=""> <p>Color de caja: <input type="text" id="value-box-color"></p> </label>
-      <input type="color" name="" id="input-box-color" value="#000000">
+      <label for="">
+        <p>Color de caja: <input type="text" id="value-box-color"></p>
+      </label>
+      <input type="color" name="" id="input-box-color" value="#334576">
 
     </div>
 
     <main class="section-box">
+
       <div id="main-box"></div>
+      
       <div class="style-css">
         <h2>Estilos de CSS: </h2>
-        <p>box-shadow: <span id="style-shadow">0px 0px 0px 0px #000000;</span></p>
+        <p>box-shadow: <span id="style-shadow">-10px 10px 10px 0px #000000;</span></p>
         <p>width: <span id="style-width">200px;</span></p>
         <p>height: <span id="style-height">200px;</span></p>
         <p>border-radius: <span id="style-border-radius">2px;</span></p>
-        <p>background color: <span id="style-background-color">#000000;</span></p>
+        <p>background color: <span id="style-background-color">#334576;</span></p>
       </div>
     </main>
 
     <div class="shadow-styles styles">
       <h2>Estilos de la sombra</h2>
 
-      <label for=""> <p>Desplazamiento horizontal: <input type="text" name="offset-horizontal" id="value-offset-horizontal" min="-100" max="100" value="0"> px</p> </label>
-      <input type="range" id="input-offset-horizontal" min="-100" max="100" value="0"> 
+      <label for="">
+        <p>Desplazamiento horizontal: <input type="text" name="offset-horizontal" id="value-offset-horizontal"
+            min="-100" max="100" value="-10"> px</p>
+      </label>
+      <input type="range" id="input-offset-horizontal" min="-100" max="100" value="-10">
 
-      <label for=""> <p>Desplazamiento vertical: <input type="text" name="offset-vertical" id="value-offset-vertical" min="-100" max="100" value="0"> px</p> </label>
-      <input type="range" id="input-offset-vertical" min="-100" max="100" value="0"> 
+      <label for="">
+        <p>Desplazamiento vertical: <input type="text" name="offset-vertical" id="value-offset-vertical" min="-100"
+            max="100" value="10"> px</p>
+      </label>
+      <input type="range" id="input-offset-vertical" min="-100" max="100" value="10">
 
-      <label for=""> <p>Blur de sombra: <input type="text" name="blur" id="value-blur" value="0"> px</p> </label> 
-      <input type="range" id="input-blur" min="0" max="100" value="0">
+      <label for="">
+        <p>Blur de sombra: <input type="text" name="blur" id="value-blur" value="10"> px</p>
+      </label>
+      <input type="range" id="input-blur" min="0" max="100" value="10">
 
-      <label for=""> <p>Spread de sombra: <input type="text" name="spread" id="value-spread" value="0"> px</p> </label> 
+      <label for="">
+        <p>Spread de sombra: <input type="text" name="spread" id="value-spread" value="0"> px</p>
+      </label>
       <input type="range" id="input-spread" value="0">
 
 
-      <label for=""> <p>Color de sombra: <input type="text" name="" id="value-shadow-color"></p></label>
+      <label for="">
+        <p>Color de sombra: <input type="text" name="" id="value-shadow-color"></p>
+      </label>
       <input type="color" name="" id="input-shadow-color" value="#ffffff">
-      
+
     </div>
   </section>
+
+  <footer>Hecho con &hearts; por W. Tomás Castagno</footer>
 
 </body>
 <script src="./app.js"></script>
